@@ -61,7 +61,17 @@ button:hover{
     color: white;
     cursor: pointer;
 }
+
 #random-image{
     width:325px;
-    padding-bottom:20px;
+    border:5px solid rgb(7, 7, 7) ;
+}
+
+#image-name{
+    font-size:30px;
+    font-family: 'Abel',sans-serif;
+    background-color:white;
+    text-align: center;
+    border:5px solid rgb(0, 0, 0) ;
+    margin-bottom: 20px;
 }
