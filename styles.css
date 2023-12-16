@@ -7,12 +7,14 @@
 body{
     background-image: url("https://w0.peakpx.com/wallpaper/454/74/HD-wallpaper-vector-set-icons-with-foods-doodle-vector-with-foods-icons-on-black-background-vintage-food-set-icons-sweet-elements-background-for-your-project-menu-cafe-shop-6823933-vector-art-at-vecteezy.jpg");
     backdrop-filter: blur(5px);
-    display:flex;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .logo_title img{
     width:150px;
-    padding-left:350px;
+    padding-left:330px;
     
 }
 .logo_title h1{
@@ -46,9 +48,6 @@ body{
     padding-left:5px;
     font-size:18px;
 }
-
-
-
 button{
     background-color: white;
     border:1px solid black;
@@ -56,10 +55,13 @@ button{
     height:30px;
     padding:3px;
 }
-
 button:hover{
     background-color: black;
     border:1px solid white;
     color: white;
     cursor: pointer;
+}
+#random-image{
+    width:325px;
+    padding-bottom:20px;
 }
