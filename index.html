@@ -7,21 +7,23 @@
     <title>Recipes</title>
 </head>
 <body>
-    <div class="navbar">
-        <div class="logo_title">
-            <img src="./logo.png">
-            <h1>Title Name</h1>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum enim delectus quam eius quasi sunt velit atque, nihil dignissimos, voluptate molestiae inventore dolore omnis, libero at aperiam aliquid ipsum deleniti.</P>
-        </div>
-        <div class="search">
-            <form action="/search" method="get">
-                <input id="search_bar" type="text" placeholder="Search..." name="search" id="search">
-                <button type="submit">Search</button>
-             </form>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo_title">
+                <img id="logo" src="./logo.png">
+                <h1>Tasty Tips</h1>
+                <P>Welcome to Tasty Tips! We're all about easy and yummy recipes. Whether you're a kitchen pro or just starting, we've got you covered. Our recipes are simple and tasty, and we're here to make cooking fun. Join us for delicious adventures in the kitchen! Happy cooking!</P>
+            </div>
+            <div class="search">
+                <form action="/search" method="get">
+                    <input id="search_bar" type="text" placeholder="Search..." name="search" id="search">
+                    <button id = "submit" type="submit">Search</button>
+                 </form>
+            </div>
         </div>
     </div>
     <div id="random_image">
-        <!-- <img src="" alt=""> -->
+        <img src="">
     </div>
     <div id="search_results">
         <div class="images"></div>
