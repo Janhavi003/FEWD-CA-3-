@@ -6,7 +6,9 @@
 }
 body{
     background-image: url("https://w0.peakpx.com/wallpaper/454/74/HD-wallpaper-vector-set-icons-with-foods-doodle-vector-with-foods-icons-on-black-background-vintage-food-set-icons-sweet-elements-background-for-your-project-menu-cafe-shop-6823933-vector-art-at-vecteezy.jpg");
-    backdrop-filter: blur(5px);
+    background-color: rgb(64, 64, 64);
+    backdrop-filter: blur(4px);
+    background-blend-mode: overlay;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +16,7 @@ body{
 }
 .logo_title img{
     width:150px;
-    padding-left:330px;
+    padding-left:500px;
     
 }
 .logo_title h1{
@@ -27,32 +29,30 @@ body{
 .logo_title p{
     width:700px;
     padding-top:20px;
-    padding-left:100px;
+    padding-left:200px;
     text-align: center;
     font-size:25px ;
     color:white;
 }
 .search{
     padding-top:50px;
-    padding-left:300px;
+    padding-left:350px;
     padding-bottom:50px;
+    margin-right:300px;
     
 }
 #search_bar{
-    border-radius:20px;
     border:1px solid black;
     height:40px;
-    width:130px;
-    margin-right:20px;
-    padding-right:20px;
-    padding-left:5px;
+    width:400px;
     font-size:18px;
+    text-align: center;
 }
 button{
     background-color: white;
     border:1px solid black;
-    width:55px;
-    height:30px;
+    width:70px;
+    height:40px;
     padding:3px;
 }
 button:hover{
@@ -63,8 +63,13 @@ button:hover{
 }
 
 #random-image{
-    width:325px;
-    border:5px solid rgb(7, 7, 7) ;
+    width:400px;
+    border:20px solid rgb(255, 252, 252) ;
+    cursor: pointerwh;
+}
+#random-image:hover{
+    transform:scale(1.1);
+    z-index:3;
 }
 
 #image-name{
@@ -73,5 +78,75 @@ button:hover{
     background-color:white;
     text-align: center;
     border:5px solid rgb(0, 0, 0) ;
-    margin-bottom: 20px;
+    margin-bottom:100px;
+}
+
+h3{
+    color:white;
+}
+
+#search_results {
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    column-gap: 100px;
+}
+
+#search_results img{
+    width:250px;
+    border:8px solid rgb(255, 255, 255) ;
+    border-radius:15px;
+    cursor: pointer;
+}
+#search_results img:hover{
+    transform:scale(1.1);
+    z-index:3;
+}
+#search_results p{
+    margin-left:15px;
+    margin-bottom:15px;
+    width:250px;
+    color:white;
+    background-color:rgb(0, 0, 0);
+    font-size:25px;
+    font-family: 'Abel',sans-serif;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px){
+  
+
+    .logo_title img{
+        width:115px;
+    }
+    .logo_title h1{
+        font-size: 55px;
+        margin-left:180px;
+    }
+    .logo_title p{
+        width:350px;
+        margin-left:180px;
+        font-size:20px ;
+    }
+    #search_bar{
+        width:200px;
+        font-size:18px;
+        margin-right:150px;
+    }
+    #random-image{
+        width:300px;
+        margin-left:200px;
+    }
+    #image-name{
+        margin-left:200px;
+    }
+    #search_results {
+        grid-template-columns:auto auto;
+        column-gap: 20px;
+    }
+    #search_results img{
+        width:150px;
+    }
+    #search_results p{
+        width:150px;   
+    }
 }

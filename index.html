@@ -11,26 +11,20 @@
         <div class="logo_title">
             <img id="logo" src="./logo.png">
             <h1>Tasty Tips</h1>
-         <P>Welcome to Tasty Tips! We're all about easy and yummy recipes. Whether you're a kitchen pro or just starting, we've got you covered. Our recipes are simple and tasty, and we're here to make cooking fun. Join us for delicious adventures in the kitchen! Happy cooking!</P>
+            <p>Welcome to Tasty Tips! We're all about easy and yummy recipes. Whether you're a kitchen pro or just starting, we've got you covered. Our recipes are simple and tasty, and we're here to make cooking fun. Join us for delicious adventures in the kitchen!<br> Happy cooking!</p>
         </div>
         <div class="search">
-            <form action="/search" method="get">
-                <input id="search_bar" type="text" placeholder="Search..." name="search">
-                <button id="submit" type="submit">Search</button>
-            </form>
+            <input id="search_bar" type="text" placeholder="Search..." name="search">
+            <button id="submit" onclick="searchImages()">Search</button>
         </div>
     </div>
     <div class="randomimage">
-     <img id="random-image" alt="">
-     <p id="image-name"></p>
+        <img id="random-image" alt="">
+        <p id="image-name"></p>
     </div>
-    <div id="search_results">
-        <div class="images"></div>
-        <div class="images"></div>
-        <div class="images"></div>
-        <div class="images"></div>
-        <div class="images"></div>
-        <div class="images"></div>
+    <h3>Your search results:</h3>
+    <div  id="search_results">
+
     </div>
 </body>
 <script src="app.js"></script>
