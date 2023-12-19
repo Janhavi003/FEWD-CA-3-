@@ -113,6 +113,47 @@ h3{
     font-family: 'Abel',sans-serif;
     text-align: center;
 }
+
+#modal{
+    position: absolute;
+    padding-top: 40px;
+    top: 700px;
+    display: none;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.422);
+    backdrop-filter: blur(2px);
+    box-shadow: 4px 4px 6px rgb(233, 226, 147);
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    font-family:'Fredoka',sans-serif;
+    font-weight:300;
+}
+#closeBtn{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+h2{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+#Ingredients{
+    color: black;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    
+    align-items: center;
+    overflow: auto;
+}
+ol{
+    list-style-type: decimal;
+}
+
+
 @media only screen and (max-width: 900px){
    .logo_title img{
         margin-left:275px;
