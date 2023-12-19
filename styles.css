@@ -6,9 +6,8 @@
 }
 body{
     background-image: url("https://w0.peakpx.com/wallpaper/454/74/HD-wallpaper-vector-set-icons-with-foods-doodle-vector-with-foods-icons-on-black-background-vintage-food-set-icons-sweet-elements-background-for-your-project-menu-cafe-shop-6823933-vector-art-at-vecteezy.jpg");
-    background-color: rgb(64, 64, 64);
-    backdrop-filter: blur(4px);
-    background-blend-mode: overlay;
+    background-color: rgb(21, 20, 20);
+    background-blend-mode: overlay; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,18 +15,18 @@ body{
 }
 .logo_title img{
     width:150px;
-    padding-left:500px;
+    padding-left:520px;
     
 }
 .logo_title h1{
-    font-size: 70px;
+    font-size: 120px;
     font-family: 'Kalnia', serif;
     font-weight: 600;
     text-align: center;
     color:white;
 }
 .logo_title p{
-    width:700px;
+    width:750px;
     padding-top:20px;
     padding-left:200px;
     text-align: center;
@@ -36,7 +35,7 @@ body{
 }
 .search{
     padding-top:50px;
-    padding-left:350px;
+    padding-left:330px;
     padding-bottom:50px;
     margin-right:300px;
     
@@ -65,7 +64,7 @@ button:hover{
 #random-image{
     width:400px;
     border:20px solid rgb(255, 252, 252) ;
-    cursor: pointerwh;
+    cursor: pointer;
 }
 #random-image:hover{
     transform:scale(1.1);
@@ -83,6 +82,9 @@ button:hover{
 
 h3{
     color:white;
+    font-size:70px;
+    padding-bottom:20px;
+    font-family: 'Abel',sans-serif;
 }
 
 #search_results {
@@ -111,42 +113,58 @@ h3{
     font-family: 'Abel',sans-serif;
     text-align: center;
 }
-
 @media only screen and (max-width: 900px){
-  
-
-    .logo_title img{
-        width:115px;
-    }
-    .logo_title h1{
-        font-size: 55px;
-        margin-left:180px;
-    }
+   .logo_title img{
+        margin-left:275px;
+   }
+   .logo_title h1{
+        margin-left:365px;
+   }
     .logo_title p{
-        width:350px;
-        margin-left:180px;
-        font-size:20px ;
+        font-size:35px;
+        width:500px;
+        margin-left:375px;
+    }
+    .search{
+        margin-left:280px;
+        display: flex;
+        justify-content: center;
+        
     }
     #search_bar{
-        width:200px;
-        font-size:18px;
-        margin-right:150px;
+        height:50px;
+        width:300px;
+        font-size:30px;
+    }
+    button{
+        height:50px;
+        width:90px;
+        font-size:20px;
     }
     #random-image{
-        width:300px;
-        margin-left:200px;
+        width:400px;
+        margin-left:330px;
     }
     #image-name{
-        margin-left:200px;
+        width:400px;
+        margin-left:340px;
+        margin-top:20px;
+    }
+    h3{
+        margin-left:475px;
+        width:700px;
     }
     #search_results {
         grid-template-columns:auto auto;
-        column-gap: 20px;
+        column-gap: 90px;
+        margin-left:300px;
     }
     #search_results img{
-        width:150px;
+        width:189px;
     }
     #search_results p{
-        width:150px;   
-    }
+        margin-left:30px;
+        width:auto;}
+        
+
 }
