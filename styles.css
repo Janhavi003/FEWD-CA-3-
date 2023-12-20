@@ -1,232 +1,252 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Fredoka:wght@500&family=Inter:wght@300&family=Kalnia&family=Oi&family=Pompiere&family=Poppins:wght@100;300;500&family=Quicksand:wght@300&family=Roboto&display=swap');
+/* importing font */
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Fredoka:wght@500&family=Inter:wght@300&family=Kalnia&family=Oi&family=Pompiere&family=Poppins:wght@100;300;500&family=Quicksand:wght@300&family=Roboto&display=swap");
 
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-image: url("https://w0.peakpx.com/wallpaper/454/74/HD-wallpaper-vector-set-icons-with-foods-doodle-vector-with-foods-icons-on-black-background-vintage-food-set-icons-sweet-elements-background-for-your-project-menu-cafe-shop-6823933-vector-art-at-vecteezy.jpg");
-    background-color: rgb(21, 20, 20);
-    background-blend-mode: overlay; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+/* Styling the body */
+body {
+  background-image: url("https://w0.peakpx.com/wallpaper/454/74/HD-wallpaper-vector-set-icons-with-foods-doodle-vector-with-foods-icons-on-black-background-vintage-food-set-icons-sweet-elements-background-for-your-project-menu-cafe-shop-6823933-vector-art-at-vecteezy.jpg");
+  background-color: rgb(21, 20, 20);
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.logo_title img{
-    width:150px;
-    padding-left:520px;
-    
+/* ---- Styling for logo,title and brief information section starts ---- */
+/* Logo image styling */
+.logo_title img {
+  width: 150px;
+  padding-left: 520px;
 }
-.logo_title h1{
-    font-size: 120px;
-    font-family: 'Kalnia', serif;
-    font-weight: 600;
-    text-align: center;
-    color:white;
+/* Title styling */
+.logo_title h1 {
+  font-size: 120px;
+  font-family: "Kalnia", serif;
+  font-weight: 600;
+  text-align: center;
+  color: white;
 }
-.logo_title p{
-    width:750px;
-    padding-top:20px;
-    padding-left:200px;
-    text-align: center;
-    font-size:25px ;
-    color:white;
+/* Brief information styling */
+.logo_title p {
+  width: 750px;
+  padding-top: 20px;
+  padding-left: 200px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
 }
-.search{
-    padding-top:50px;
-    padding-left:330px;
-    padding-bottom:10px;
-    margin-right:300px;
-    
+/* ---- Styling for logo,title and brief information section ends ---- */
+
+/* ---- Styling for search bar and search button starts ---- */
+/* Search section styling */
+.search {
+  padding-top: 50px;
+  padding-left: 330px;
+  padding-bottom: 10px;
+  margin-right: 300px;
 }
-#search_bar{
-    border:1px solid black;
-    height:40px;
-    width:400px;
-    font-size:18px;
-    text-align: center;
+/* Search bar styling */
+#search_bar {
+  border: 1px solid black;
+  height: 40px;
+  width: 400px;
+  font-size: 18px;
+  text-align: center;
 }
-button{
-    background-color: white;
-    border:1px solid black;
-    width:70px;
-    height:40px;
-    padding:3px;
+/* Search button styling */
+button {
+  background-color: white;
+  border: 1px solid black;
+  width: 70px;
+  height: 40px;
+  padding: 3px;
 }
-button:hover{
-    background-color: black;
-    border:1px solid white;
+button:hover {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+/* ---- Styling for search bar and search button ends ---- */ 
+
+/* ---- Search Options styling starts ---- */
+.options h6 {
     color: white;
-    cursor: pointer;
-}
-
-#random-image{
-    width:400px;
-    border:20px solid rgb(255, 252, 252) ;
-    cursor: pointer;
-}
-#random-image:hover{
-    transform:scale(1.1);
-    z-index:3;
-}
-
-#image-name{
-    font-size:30px;
-    font-family: 'Abel',sans-serif;
-    background-color:white;
-    text-align: center;
-    border:5px solid rgb(0, 0, 0) ;
-    margin-bottom:100px;
-}
-
-h3{
-    color:white;
-    font-size:70px;
-    padding-bottom:20px;
-    font-family: 'Abel',sans-serif;
-}
-.options h6{
-    color:white;
-    font-size:20px;
-    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
     text-align: center;
 }
-.options p{
-    color:rgb(95, 95, 95);
-    font-size:20px;
-    font-family:'Abel',sans-serif;
-    text-align: center;
-    margin-bottom:30px;
+.options p {
+  color: rgb(182, 182, 182);
+  font-size: 21px;
+  font-family: "Abel", sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* ---- Search Options styling ends ---- */
 
+/*  ---- Random Image with name styling starts ---- */
+/* Random Image styling */
+#random-image {
+  width: 400px;
+  border: 20px solid rgb(255, 252, 252);
+  cursor: pointer;
+}
+#random-image:hover {
+    transform: scale(1.1);
+    z-index: 3;
+}
+/* Image-Name styling */
+#image-name {
+    font-size: 30px;
+    font-family: "Abel", sans-serif;
+  background-color: white;
+  text-align: center;
+  border: 5px solid rgb(0, 0, 0);
+  margin-bottom: 100px;
+}
+/* ---- Random Image with name styling ends ---- */
+
+/* ---- Modal styling starts ---- */
+#modal {
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 700px;
+  display: none;
+  width: 500px;
+  height: 530px;
+  background-color: rgba(255, 255, 255, 0.422);
+  backdrop-filter: blur(2px);
+  box-shadow: 4px 4px 6px rgb(233, 226, 147);
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 300;
+  overflow: auto;
+}
+#closeBtn {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
+h2 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+#Ingredients {
+  color: black;
+  line-height: 30px;
+  font-size: 20px;
+  margin-top: 30px;
+  align-items: center;
+}
+ol {
+  list-style-type: decimal;
+}
+/* ---- Modal Styling ends ---- */
+
+/* ---- Search result styling starts ---- */
+h3 {
+  color: white;
+  font-size: 70px;
+  padding-bottom: 20px;
+  font-family: "Abel", sans-serif;
 }
 #search_results {
-    display: grid;
-    grid-template-columns:auto auto auto auto;
-    column-gap: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 100px;
 }
 
-#search_results img{
-    width:250px;
-    border:8px solid rgb(255, 255, 255) ;
-    border-radius:15px;
-    cursor: pointer;
+#search_results img {
+  width: 250px;
+  border: 8px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  cursor: pointer;
 }
-#search_results img:hover{
-    transform:scale(1.1);
-    z-index:3;
+#search_results img:hover {
+  transform: scale(1.1);
+  z-index: 3;
 }
-#search_results p{
-    margin-left:15px;
-    margin-bottom:15px;
-    width:250px;
-    color:white;
-    background-color:rgb(0, 0, 0);
-    font-size:25px;
-    font-family: 'Abel',sans-serif;
-    text-align: center;
+#search_results p {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 250px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-family: "Abel", sans-serif;
+  text-align: center;
 }
+/*  ---- Search results styling ends ---- */
 
-#modal{
-    position: absolute;
-    padding-top: 40px;
-    top: 700px;
-    display: none;
+/* ---- Responsiveness styling starts ---- */
+@media only screen and (max-width: 900px) {
+  .logo_title img {
+    margin-left: 275px;
+  }
+  .logo_title h1 {
+    margin-left: 375px;
+  }
+  .logo_title p {
+    font-size: 35px;
     width: 500px;
-    height: 700px;
-    background-color: rgba(255, 255, 255, 0.422);
-    backdrop-filter: blur(2px);
-    box-shadow: 4px 4px 6px rgb(233, 226, 147);
-    border-radius: 15px;
-    cursor: pointer;
-    text-align: center;
-    font-family:'Fredoka',sans-serif;
-    font-weight:300;
-}
-#closeBtn{
-    position: absolute;
-    top: 7px;
-    left: 7px;
-}
-h2{
-    font-size: 40px;
+    margin-left: 375px;
+  }
+  .search {
+    margin-left: 320px;
     display: flex;
     justify-content: center;
-}
-#Ingredients{
-    color: black;
-    line-height: 30px;
+  }
+  #search_bar {
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+  }
+  button {
+    height: 50px;
+    width: 90px;
     font-size: 20px;
-    margin-top: 30px;
-    
-    align-items: center;
-    overflow: auto;
+  }
+  .options {
+    margin-left: 330px;
+  }
+  #random-image {
+    width: 400px;
+    margin-left: 330px;
+  }
+  #image-name {
+    width: 400px;
+    margin-left: 340px;
+    margin-top: 20px;
+  }
+  #modal {
+    margin-left: 350px;
+    margin-top: 450px;
+  }
+  h3 {
+    margin-left: 475px;
+    width: 700px;
+  }
+  #search_results {
+    grid-template-columns: auto auto;
+    column-gap: 90px;
+    margin-left: 300px;
+  }
+  #search_results img {
+    width: 189px;
+  }
+  #search_results p {
+    margin-left: 30px;
+    width: auto;
+  }
 }
-ol{
-    list-style-type: decimal;
-}
+/* ---- Responsiveness styling ends ---- */
 
-
-@media only screen and (max-width: 900px){
-   .logo_title img{
-        margin-left:275px;
-   }
-   .logo_title h1{
-        margin-left:375px;
-   }
-    .logo_title p{
-        font-size:35px;
-        width:500px;
-        margin-left:375px;
-    }
-    .search{
-        margin-left:320px;
-        display: flex;
-        justify-content: center;
-        
-    }
-    #search_bar{
-        height:50px;
-        width:300px;
-        font-size:30px;
-    }
-    button{
-        height:50px;
-        width:90px;
-        font-size:20px;
-
-    }
-    .options{
-        margin-left:330px;
-    }
-    #random-image{
-        width:400px;
-        margin-left:330px;
-    }
-    #image-name{
-        width:400px;
-        margin-left:340px;
-        margin-top:20px;
-    }
-    #modal{
-        margin-left:350px;
-        margin-top:450px;
-    }
-    h3{
-        margin-left:475px;
-        width:700px;
-    }
-    #search_results {
-        grid-template-columns:auto auto;
-        column-gap: 90px;
-        margin-left:300px;
-    }
-    #search_results img{
-        width:189px;
-    }
-    #search_results p{
-        margin-left:30px;
-        width:auto;}
-        
-
-}
+/* ~~~~~ CSS ends here ~~~~~ */

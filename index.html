@@ -1,37 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>TastyTips</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="navbar">
-        <div class="logo_title">
-            <img id="logo" src="./logo.png">
-            <h1>Tasty Tips</h1>
-            <p>Welcome to Tasty Tips! Discover a world of easy and delicious recipes tailored for both kitchen pros and beginners. Our mission is to make cooking enjoyable and accessible. From simple weeknight meals to impressive dishes, we've got you covered. Join us in creating delightful culinary experiences-where every recipe is a blend of simplicity and mouthwatering flavors. Whether you're a seasoned chef seeking inspiration or a novice eager to learn, Tasty Tips is your partner in the kitchen.<br> Happy cooking!</p>
-        </div>
-        <div class="search">
-            <input id="search_bar" type="text" placeholder="Search..." name="search">
-            <button id="submit" onclick="searchImages()">Search</button>
-        </div>
-        <div class="options"><h6>to get better results search options like:</h6> <p>Vegan, Vegetarian, Pork, Chicken, Beef, Lamb, Dessert, Side, Starter</p></div>
+      <div class="logo_title">
+        <img id="logo" src="./logo.png" />
+        <h1>Tasty Tips</h1>
+        <p>
+          Welcome to Tasty Tips! Discover a world of easy and delicious recipes
+          tailored for both kitchen pros and beginners. Our mission is to make
+          cooking enjoyable and accessible. From simple weeknight meals to
+          impressive dishes, we've got you covered. Join us in creating
+          delightful culinary experiences-where every recipe is a blend of
+          simplicity and mouthwatering flavors. Whether you're a seasoned chef
+          seeking inspiration or a novice eager to learn, Tasty Tips is your
+          partner in the kitchen.<br />
+          Happy cooking!
+        </p>
+      </div>
+      <div class="search">
+        <input
+          id="search_bar"
+          type="text"
+          placeholder="Search..."
+          name="search"
+        />
+        <button id="submit" onclick="searchImages()">Search</button>
+      </div>
+      <div class="options">
+        <h6>to get better results search options like:</h6>
+        <p><i>
+          Vegan, Vegetarian, Pork, Chicken, Beef, Lamb, Goat, Dessert, Side, Starter, Breakfast, Miscellanous, Pasta, Seafood.
+        </i></p>
+      </div>
     </div>
     <div class="randomimage">
-        <img id="random-image" alt="">
-        <p id="image-name"></p>
+      <img id="random-image" alt="" />
+      <p id="image-name"></p>
     </div>
     <div id="modal">
-        <img width="30px" id="closeBtn" src="close.png" alt="">
-        <h2>Ingredients</h2>
-        <ol id="Ingredients"></ol>
+      <img width="30px" id="closeBtn" src="close.png" alt="" />
+      <h2>Ingredients</h2>
+      <ol id="Ingredients"></ol>
     </div>
     <h3>Your search results:</h3>
-    <div  id="search_results">
-
-    </div>
-</body>
-<script src="app.js"></script>
+    <div id="search_results"></div>
+  </body>
+  <script src="app.js"></script>
 </html>
