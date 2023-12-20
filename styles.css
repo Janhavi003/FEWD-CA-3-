@@ -36,7 +36,7 @@ body{
 .search{
     padding-top:50px;
     padding-left:330px;
-    padding-bottom:50px;
+    padding-bottom:10px;
     margin-right:300px;
     
 }
@@ -86,7 +86,20 @@ h3{
     padding-bottom:20px;
     font-family: 'Abel',sans-serif;
 }
+.options h6{
+    color:white;
+    font-size:20px;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+}
+.options p{
+    color:rgb(95, 95, 95);
+    font-size:20px;
+    font-family:'Abel',sans-serif;
+    text-align: center;
+    margin-bottom:30px;
 
+}
 #search_results {
     display: grid;
     grid-template-columns:auto auto auto auto;
@@ -120,7 +133,7 @@ h3{
     top: 700px;
     display: none;
     width: 500px;
-    height: 500px;
+    height: 700px;
     background-color: rgba(255, 255, 255, 0.422);
     backdrop-filter: blur(2px);
     box-shadow: 4px 4px 6px rgb(233, 226, 147);
@@ -159,7 +172,7 @@ ol{
         margin-left:275px;
    }
    .logo_title h1{
-        margin-left:365px;
+        margin-left:375px;
    }
     .logo_title p{
         font-size:35px;
@@ -167,7 +180,7 @@ ol{
         margin-left:375px;
     }
     .search{
-        margin-left:280px;
+        margin-left:320px;
         display: flex;
         justify-content: center;
         
@@ -181,6 +194,10 @@ ol{
         height:50px;
         width:90px;
         font-size:20px;
+
+    }
+    .options{
+        margin-left:330px;
     }
     #random-image{
         width:400px;
@@ -190,6 +207,10 @@ ol{
         width:400px;
         margin-left:340px;
         margin-top:20px;
+    }
+    #modal{
+        margin-left:350px;
+        margin-top:450px;
     }
     h3{
         margin-left:475px;
